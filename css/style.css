@@ -13,7 +13,7 @@ Author: Marija Zaric
 body {
   font-family: "Roboto", Arial, serif;
   background: transparent;
-  border: 20px #669999 solid;
+  border: 20px #000000 solid;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -24,7 +24,7 @@ img {
 
 
 a {
-  color: #669999;
+  color: #000000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-heading span {
-  background-color: #c1d6d6;
+  background-color: #000000;
   color: white;
   padding: 4px;
 }
@@ -245,13 +245,13 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
         -ms-transform: translateY(8px) translateX(0) rotate(45deg);
             transform: translateY(8px) translateX(0) rotate(45deg);
-    background: black;
+    background: rgb(255, 255, 255);
 }
 
 /* Set the middle hamburger bar's opacity to 0  */
 .button_container.active .middle {
     opacity: 0;
-    background: black;
+    background: rgb(255, 255, 255);
 }
 
 /* Animate the bottom hamburger bar */
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
         -ms-transform: translateY(-8px) translateX(0) rotate(-45deg);
             transform: translateY(-8px) translateX(0) rotate(-45deg);
-    background:black;
+    background:rgb(255, 253, 253);
 }
 
 .button_container span {
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 .overlay {
     position: fixed;
     display: block; 
-    background: #669999;
+    background: #212121;
     top: 0;
     border: 0;
     left: 0;
@@ -506,7 +506,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 .story { 
 	margin-top: 30px;
-	color: #669999;
+	color: #000000;
 	font-size: 16px;
 	text-align: left;
 }
@@ -703,7 +703,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #000000;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -723,7 +723,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #000000;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -824,7 +824,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #000000;
 }
 
 .text-studio {
@@ -1116,7 +1116,7 @@ figure.effect-julia:hover p {
 
 .speciality-info h3 {
 	margin-top: 20px;
-	color:  #669999;
+	color:  #000000;
 	text-transform: capitalize;
 	font-size: 22px;
 	font-weight: 700;
@@ -1215,7 +1215,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #000000;
 }
 
 .text-projectd {
@@ -1306,7 +1306,7 @@ figure.effect-julia:hover p {
 label {
 	font-size: 20px;
 	font-weight: 700;
-	color: #669999;
+	color: #000000;
 	padding-bottom: 6px;
 }
 
@@ -1331,7 +1331,7 @@ label {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #000000;
 }
 
 .text-contact {
@@ -1414,7 +1414,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 @media(max-width: 1024px) {
 
 body {
-  border: 10px solid #669999;
+  border: 10px solid #000000;
 }
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
@@ -1497,7 +1497,7 @@ body {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #000000;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -1547,7 +1547,7 @@ header {
   }
   
 body {
-  border: 10px solid #669999;
+  border: 10px solid #000000;
 }
 
 figure.effect-julia h2 {
@@ -1609,7 +1609,7 @@ figure.effect-julia p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #000000;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;
